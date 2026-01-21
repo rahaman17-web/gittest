@@ -1,0 +1,17 @@
+.card img {
+  height: 200px;
+  object-fit: contain;
+}
+.star {
+  font-size: large;
+  color: grey;
+}
+/* Filled stars use gold for better visibility */
+.star.filled {
+  color: gold;
+}
+#categoryFilter,
+#priceRangeSelect,
+#sortBy {
+  font-weight: bold;
+}

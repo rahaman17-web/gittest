@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless headphone",
+    "price": 99.9,
+    "image": "images/headphone.jpeg",
+    "alt": "wireless headphone",
+    "rating": 4.5,
+    "category": "Audio",
+    "popularity": 120
+  },
+  {
+    "id": 2,
+    "name": "Smart Speaker",
+    "price": 49.99,
+    "image": "images/smartSpeaker.jpeg",
+    "alt": "smart speaker",
+    "rating": 4,
+    "category": "Audio",
+    "popularity": 95
+  },
+  {
+    "id": 3,
+    "name": "Fitness Tracker",
+    "price": 29.99,
+    "image": "images/fitnessTracker.jpeg",
+    "alt": "fitness tracker",
+    "rating": 3.5,
+    "category": "Wearables",
+    "popularity": 80
+  },
+  {
+    "id": 4,
+    "name": "Smart Watch",
+    "price": 70.99,
+    "image": "images/smartWatch.jpeg",
+    "alt": "smart watch",
+    "rating": 4.5,
+    "category": "Wearables",
+    "popularity": 100
+  },
+  {
+    "id": 5,
+    "name": "Mobile Phone",
+    "price": 200.99,
+    "image": "images/mobile.jpeg",
+    "alt": "mobile phone",
+    "rating": 4,
+    "category": "Mobile",
+    "popularity": 200
+  },
+  {
+    "id": 6,
+    "name": "Power Bank",
+    "price": 50.99,
+    "image": "images/powerBank.jpeg",
+    "alt": "power bank",
+    "rating": 5,
+    "category": "Accessories",
+    "popularity": 170
+  }
+]
