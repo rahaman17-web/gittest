@@ -21,8 +21,20 @@ function showError(message) {
   container.innerHTML = `<div class="alert alert-danger">${message}</div>`;
 }
 
+function showLoading() {
+  const container = document.getElementById("productList");
+  container.innerHTML = `
+    <div class="d-flex justify-content-center align-items-center" style="height: 200px;">
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+  `;
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   loadCart();
+  showLoading();
   fetch("products.json")
     .then((res) => {
       if (!res.ok) throw new Error("Network response was not ok");

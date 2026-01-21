@@ -1,7 +1,45 @@
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  font-family: 'Arial', sans-serif;
+}
+
 .card img {
   height: 200px;
   object-fit: contain;
+  transition: transform 0.3s ease;
 }
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.card-body {
+  background: #fff;
+}
+
+.btn-dark {
+  background: linear-gradient(45deg, #343a40, #495057);
+  border: none;
+  transition: background 0.3s ease;
+}
+
+.btn-dark:hover {
+  background: linear-gradient(45deg, #495057, #6c757d);
+}
+
 .star {
   font-size: large;
   color: grey;
@@ -10,8 +48,41 @@
 .star.filled {
   color: gold;
 }
+
 #categoryFilter,
 #priceRangeSelect,
 #sortBy {
   font-weight: bold;
+  border-radius: 8px;
+}
+
+.list-group-item {
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #007bff, #0056b3);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #0056b3, #004085);
+}
+
+.btn-success {
+  background: linear-gradient(45deg, #28a745, #1e7e34);
+  border: none;
+}
+
+.btn-success:hover {
+  background: linear-gradient(45deg, #1e7e34, #155724);
+}
+
+header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  margin-top: auto;
 }
