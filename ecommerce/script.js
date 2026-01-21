@@ -11,6 +11,7 @@ function loadCart() {
     const raw = localStorage.getItem("cart");
     if (raw) cart = JSON.parse(raw);
   } catch (e) {
+    console.error("Failed to load cart from localStorage", e);
     cart = [];
   }
 }
